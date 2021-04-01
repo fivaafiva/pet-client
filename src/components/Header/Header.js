@@ -14,10 +14,9 @@ function Header() {
 
 
             <div className="header__nav">
-            {/*    <Link to={"/login"}>*/}
-            {/*        <div*/}
-            {/*             className="header__option">*/}
-            {/*            <span className="header__optionLineTwo">Sign in</span>*/}
+            {/*    <Link to={"/login"} >*/}
+            {/*        <div className="header__option">*/}
+            {/*            <div className="navbar__item">Sign in</div>*/}
             {/*        </div>*/}
             {/*    </Link>*/}
 
