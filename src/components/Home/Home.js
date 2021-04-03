@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Home.css";
-import bootstrap from "bootstrap/dist/css/bootstrap.min.css"
 
 
 function Home() {
@@ -15,10 +14,10 @@ function Home() {
             <div className="description">
                 <h1>Welcome</h1>
                 <p>Dating app for your pets,
-                    elite clientelle find a love your loved one</p>
+                    elite clientele find a love your loved one</p>
             </div>
 
-            <button type="button" className="btn btn-info btn-lg">Large button</button>
+            <button type="button" className="btn btn-info btn-lg">Sign In</button>
 
             {/*Footer*/}
 
