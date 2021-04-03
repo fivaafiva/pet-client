@@ -1,30 +1,24 @@
 import Home from './components/Home/Home';
-import Header from './components/Header/Header';
-import { Switch, Route} from "react-router-dom";
+import {Switch, Route} from "react-router-dom";
 import Profile from "./components/Profiles/Profile";
 import './App.css'
+import Navbar from "./components/Nav/Navbar";
 
 function App() {
-    return (
-            <div>
+  return (
+    <>
+      <Navbar/>
+      <Switch>
+        <Route path="/" exact>
+          <Home/>
+        </Route>
+        <Route path="/profile">
+          <Profile/>
+        </Route>
+      </Switch>
+    </>
 
-                <Switch>
-                    <Route path="/" exact>
-                        <Header/>
-                        <Home/>
-                    </Route>
-
-
-                    <Route path="/profile">
-                        <Header/>
-                        <Profile/>
-                    </Route>
-
-
-                </Switch>
-            </div>
-
-    );
+  );
 }
 
 export default App;

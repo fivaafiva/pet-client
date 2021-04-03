@@ -6,7 +6,7 @@ import NavLogged from "./NavLogged";
 
 const Navbar = () => {
 
-  const isLogged = true
+  const isLogged = false
 
   return (
     <NavContainer position='sticky'>
