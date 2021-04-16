@@ -1,8 +1,9 @@
-import Home from './components/Home/Home';
+
 import {Switch, Route} from "react-router-dom";
-import Profile from "./components/Profiles/Profile";
+import Profile from "./Components/Profiles/Profile";
 import './App.css'
-import Navbar from "./components/Nav/Navbar";
+import Navbar from "./Components/Nav/Navbar";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
